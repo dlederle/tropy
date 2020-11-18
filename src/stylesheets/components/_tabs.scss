@@ -29,7 +29,7 @@
     }
 
     &:not(.active) {
-      .nested-tab-focus & {
+      :focus-visible & {
         background: $tab-nested-focus-bg;
       }
     }
